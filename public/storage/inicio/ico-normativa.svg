@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="83px" height="80px" viewBox="0 0 83 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>ico-normativa</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Iguladad-de-genero-2025" transform="translate(-772.000000, -873.000000)" stroke="#1D1D1D">
+            <g id="ico-normativa" transform="translate(773.000000, 874.000000)">
+                <g>
+                    <path d="M28,24.5 C28,29.747 23.747,34 18.5,34 C13.253,34 9,29.747 9,24.5 C9,19.253 13.253,15 18.5,15 C23.747,15 28,19.253 28,24.5 Z" id="Stroke-1" stroke-width="2"></path>
+                    <path d="M25.0576,17.5186 C26.7506,15.9556 29.0136,14.9996 31.4996,14.9996 C36.7466,14.9996 40.9996,19.2526 40.9996,24.4996 C40.9996,29.7476 36.7466,33.9996 31.4996,33.9996 C26.2526,33.9996 21.9996,29.7476 21.9996,24.4996 C21.9996,23.5826 22.1296,22.6966 22.3716,21.8576 C22.5156,21.3626 22.6986,20.8836 22.9156,20.4256" id="Stroke-3" stroke-width="2"></path>
+                    <polyline id="Stroke-5" stroke-width="2" points="38 11 44 11 44 17"></polyline>
+                    <path d="M38,17 L43.5,11.5" id="Stroke-7" stroke-width="2"></path>
+                    <path d="M19,34 L19,43" id="Stroke-9" stroke-width="2"></path>
+                    <path d="M15,39 L23,39" id="Stroke-11" stroke-width="2"></path>
+                    <path d="M8,48 L41,48" id="Stroke-13" stroke-width="2"></path>
+                    <path d="M8,55 L20,55" id="Stroke-15" stroke-width="2"></path>
+                    <path d="M27,55 L28,55" id="Stroke-17" stroke-width="2"></path>
+                    <path d="M14.54,78 L3.966,78 C1.784,78 0,76.216 0,74.034 L0,3.966 C0,1.784 1.784,0 3.966,0 L47,0 L65,17 L65,39" id="Stroke-19" stroke-width="2"></path>
+                    <path d="M47.3066,0 L47.3066,12.262 C47.3066,14.879 49.4276,17 52.0436,17 L64.9996,17" id="Stroke-21" stroke-width="2"></path>
+                    <polyline id="Stroke-23" stroke-width="2" points="20 78 20 65 30 65 30 78"></polyline>
+                    <polyline id="Stroke-25" stroke-width="2" points="36 78 36 55 46 55 46 78"></polyline>
+                    <polyline id="Stroke-27" stroke-width="2" points="53 78 53 45 63 45 63 78"></polyline>
+                    <polyline id="Stroke-29" stroke-width="2" points="71 43.7148 71 33.9998 81 33.9998 81 77.9998"></polyline>
+                    <path d="M71,78 L71,53.548" id="Stroke-31" stroke-width="2"></path>
+                    <path d="M71,49 L71,47.548" id="Stroke-33" stroke-width="2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

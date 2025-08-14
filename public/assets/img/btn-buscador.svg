@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>btn-buscador</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="18.5" cy="18.5" r="18.5"></circle>
+        <filter x="-31.1%" y="-23.0%" width="167.6%" height="167.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.316066576 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PAGINA-NUEVA-WEB-PODER-JUDICIAL-2025-" transform="translate(-966.000000, -201.000000)">
+            <g id="BOTONES-EXTERNOS" transform="translate(972.000000, 204.000000)">
+                <g id="btn-buscador">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#D12874" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Lupa" transform="translate(9.000000, 9.000000)" fill="#FFFFFF" fill-rule="evenodd">
+                        <path d="M2.44186047,8 C2.44186047,4.69165217 5.07091608,2 8.30232558,2 C11.5337351,2 14.1627907,4.69165217 14.1627907,8 C14.1627907,11.3083478 11.5337351,14 8.30232558,14 C5.07091608,14 2.44186047,11.3083478 2.44186047,8 M20.1362651,17.7565641 L15.4898686,12.9942564 C16.3934058,11.6144487 16.922093,9.95605128 16.922093,8.17307692 C16.922093,3.39079487 13.1264163,-0.5 8.46104651,-0.5 C3.79567674,-0.5 0,3.39079487 0,8.17307692 C0,12.955359 3.79567674,16.8461538 8.46104651,16.8461538 C10.4629814,16.8461538 12.3018488,16.1260256 13.7525337,14.9296667 L18.3230372,19.6152308 C18.5737919,19.8717436 18.9014651,20 19.2296512,20 C19.5578372,20 19.8855105,19.8717436 20.1362651,19.6152308 C20.6367488,19.1016795 20.6367488,18.2701154 20.1362651,17.7565641" id="Fill-1"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

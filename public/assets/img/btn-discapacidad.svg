@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>btn-discapacidad</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="18.5" cy="18.5" r="18.5"></circle>
+        <filter x="-31.1%" y="-23.0%" width="167.6%" height="167.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.32 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SITIOS-Y-MICROSITIOS-PJ" transform="translate(-966.000000, -371.000000)">
+            <g id="btn-discapacidad" transform="translate(972.000000, 374.000000)">
+                <g>
+                    <g id="btn-mail">
+                        <g>
+                            <g id="Oval-Copy-2">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#009684" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="ico-discapacidad" transform="translate(9.000000, 6.000000)" fill="#FFFFFF">
+                        <g stroke-width="1" transform="translate(4.565217, 0.000000)">
+                            <ellipse id="Oval" cx="2.46768508" cy="2.42311277" rx="2.46768508" ry="2.42311277"></ellipse>
+                            <path d="M8.54748169,8.73131922 C9.29122302,8.80846726 9.87074031,9.42631614 9.87074031,10.1770736 C9.87074031,10.9278311 9.29122302,11.54568 8.54748169,11.622828 L8.54748169,11.6309413 L4.93537015,11.6309413 L4.93537015,12.6001864 L9.87074031,12.6001864 L10.4608821,12.6001864 C11.0087987,12.6001864 11.5119214,12.8973091 11.768755,13.37256 L15.1534492,19.6356796 C15.5271031,20.3270976 15.2762215,21.1848912 14.5858818,21.57626 L14.5278617,21.6091529 C13.8247962,22.0077361 12.9259851,21.776066 12.5129235,21.089799 L9.50211662,16.0875987 L1.97414806,16.0875987 C0.883856193,16.0875987 0,15.2197071 0,14.1491085 L0,13.6720284 L0,8.16240162 L0.00119643243,8.16240162 C0.0421775746,6.85940491 1.13077681,5.81547064 2.46768508,5.81547064 C3.80459334,5.81547064 4.89319258,6.85940491 4.93417372,8.16240162 L4.93537015,8.16240162 L4.93537015,8.72320596 L8.54748169,8.72320596 L8.54748169,8.73131922 Z" id="Combined-Shape"></path>
+                        </g>
+                        <path d="M3.9705887,13.1920318 C2.7175222,14.3604944 1.97414806,15.9966816 1.97414806,17.7600866 C1.97414806,21.239532 4.84668066,24.0601798 8.39012926,24.0601798 C11.0138404,24.0601798 13.3430371,22.4996127 14.3254217,20.1577169 C14.6458809,19.5285418 14.8061105,19.0524134 14.8061105,18.7293317 L16.1507825,20.8960128 C14.8663098,23.958053 11.8206233,25.99867 8.39012926,25.99867 C3.75638879,25.99867 1.0125234e-13,22.3101306 1.0125234e-13,17.7600866 C1.0125234e-13,14.8756944 1.52288723,12.2494329 3.96622543,10.7586207 L3.9705887,13.1920318 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

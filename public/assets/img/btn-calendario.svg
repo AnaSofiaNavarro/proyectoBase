@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="83px" height="83px" viewBox="0 0 83 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>btn-calendario</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="73" height="73" rx="5"></rect>
+        <filter x="-8.9%" y="-8.9%" width="123.3%" height="123.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="2" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PAGINA-NUEVA-WEB-PODER-JUDICIAL-2025--Copy" transform="translate(-119.000000, -1530.000000)">
+            <g id="btn-calendario" transform="translate(122.000000, 1533.000000)">
+                <g>
+                    <g id="Rectangle-Copy-17">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#C90166" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Ico-calendario" transform="translate(10.000000, 14.000000)" fill="#FFFFFF">
+                        <path d="M52.0357143,15.0625 L0.285714286,15.0625 L0.285714286,8.64583333 C0.285714286,4.22755533 3.86743629,0.645833333 8.28571429,0.645833333 L12.6875,0.645833333 L12.6875,7.29166667 C12.6875,8.94852092 14.0306458,10.2916667 15.6875,10.2916667 C17.3443542,10.2916667 18.6875,8.94852092 18.6875,7.29166667 L18.6875,0.645833333 L33.6339286,0.645833333 L33.6339286,7.29166667 C33.6339286,8.94852092 34.9770743,10.2916667 36.6339286,10.2916667 C38.2907828,10.2916667 39.6339286,8.94852092 39.6339286,7.29166667 L39.6339286,0.645833333 L44.0357143,0.645833333 C48.4539923,0.645833333 52.0357143,4.22755533 52.0357143,8.64583333 L52.0357143,15.0625 Z M52.0357143,20.0625 L52.0357143,43.3958333 C52.0357143,47.8141113 48.4539923,51.3958333 44.0357143,51.3958333 L8.28571429,51.3958333 C3.86743629,51.3958333 0.285714286,47.8141113 0.285714286,43.3958333 L0.285714286,20.0625 L52.0357143,20.0625 Z M9,25 C7.8954305,25 7,25.8954305 7,27 L7,31 C7,32.1045695 7.8954305,33 9,33 L13,33 C14.1045695,33 15,32.1045695 15,31 L15,27 C15,25.8954305 14.1045695,25 13,25 L9,25 Z M9,36 C7.8954305,36 7,36.8954305 7,38 L7,42 C7,43.1045695 7.8954305,44 9,44 L13,44 C14.1045695,44 15,43.1045695 15,42 L15,38 C15,36.8954305 14.1045695,36 13,36 L9,36 Z M24,25 C22.8954305,25 22,25.8954305 22,27 L22,31 C22,32.1045695 22.8954305,33 24,33 L28,33 C29.1045695,33 30,32.1045695 30,31 L30,27 C30,25.8954305 29.1045695,25 28,25 L24,25 Z M24,36 C22.8954305,36 22,36.8954305 22,38 L22,42 C22,43.1045695 22.8954305,44 24,44 L28,44 C29.1045695,44 30,43.1045695 30,42 L30,38 C30,36.8954305 29.1045695,36 28,36 L24,36 Z M39,25 C37.8954305,25 37,25.8954305 37,27 L37,31 C37,32.1045695 37.8954305,33 39,33 L43,33 C44.1045695,33 45,32.1045695 45,31 L45,27 C45,25.8954305 44.1045695,25 43,25 L39,25 Z M39,36 C37.8954305,36 37,36.8954305 37,38 L37,42 C37,43.1045695 37.8954305,44 39,44 L43,44 C44.1045695,44 45,43.1045695 45,42 L45,38 C45,36.8954305 44.1045695,36 43,36 L39,36 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

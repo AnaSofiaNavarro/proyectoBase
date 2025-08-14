@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>btn-usuario</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="18.5" cy="18.5" r="18.5"></circle>
+        <filter x="-31.1%" y="-23.0%" width="167.6%" height="167.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.32 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="0 0.299851667 18.9117391 0.299851667 18.9117391 8.866635 0 8.866635"></polygon>
+        <polygon id="path-5" points="0.001009375 0.0443333333 9.40482187 0.0443333333 9.40482187 10.0748767 0.001009375 10.0748767"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PAGINA-NUEVA-WEB-PODER-JUDICIAL-2025-" transform="translate(-966.000000, -257.000000)">
+            <g id="BOTONES-EXTERNOS" transform="translate(972.000000, 204.000000)">
+                <g id="btn-usuario" transform="translate(0.000000, 56.000000)">
+                    <g id="Oval-Copy">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#D12874" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Ico-user" transform="translate(9.000000, 8.000000)" fill-rule="evenodd" stroke-width="1">
+                        <g id="Group-7">
+                            <g id="Group-3" transform="translate(0.000000, 10.089127)">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <g id="Clip-2"></g>
+                                <path d="M-8.90625e-05,8.866635 C0.756942188,4.02670167 4.70152031,0.299851667 9.45300469,0.299851667 C14.2172547,0.299851667 18.1701453,4.008335 18.9117391,8.866635 L-8.90625e-05,8.866635 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-4)"></path>
+                            </g>
+                            <g id="Group-6" transform="translate(4.750000, 0.272460)">
+                                <mask id="mask-6" fill="white">
+                                    <use xlink:href="#path-5"></use>
+                                </mask>
+                                <g id="Clip-5"></g>
+                                <path d="M9.40482187,5.05951 C9.40482187,7.82907667 7.29938438,10.0748767 4.70291563,10.0748767 C2.10644688,10.0748767 0.001009375,7.82907667 0.001009375,5.05951 C0.001009375,2.28962667 2.10644688,0.0441433333 4.70291563,0.0441433333 C7.29938438,0.0441433333 9.40482187,2.28962667 9.40482187,5.05951" id="Fill-4" fill="#FFFFFF" mask="url(#mask-6)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
