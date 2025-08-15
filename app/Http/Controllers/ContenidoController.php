@@ -123,18 +123,25 @@ public function create(Request $request)
     $vapartado = $request->input('vapartado');
     $vseccion = $request->input('vseccion');
     $vbusqueda = $request->input('vbusqueda');
-    
+
     $apartados = Apartado::where([['menu', false], ['enlace', false]])
                         ->orderBy('orden', 'asc')->get();
 
     $user = Auth::user();
 
+    $templatePath = resource_path('views\templates');
+    $templateFiles = File::files($templatePath);
+
+    $templates = [];
+    foreach ($templateFiles as $file) {
+        $filename = $file->getFilenameWithoutExtension();
+        $templates[] = $filename;
+    }
+
     if ($user->roles->contains('slug', 'administrador')) {
-        // Administrador: puede ver todas las secciones
         $secciones = Seccion::where('enlace', false)->orderBy('orden', 'asc')->get();
         $isAdmin = true;
     } else {
-        // Solo secciones permitidas para el usuario
         $secciones = $user->secciones()->where('enlace', false)->orderBy('orden', 'asc')->get();
         $isAdmin = false;
     }
@@ -144,9 +151,11 @@ public function create(Request $request)
 
     return view('contenidos.crear', compact(
         'page', 'vfecha', 'vapartado', 'vseccion', 'vbusqueda',
-        'apartados', 'secciones', 'tipocontenidos', 'isAdmin'
+        'apartados', 'secciones', 'tipocontenidos', 'isAdmin',
+        'templates'
     ));
 }
+
 
     /**
      * Store a newly created resource in storage.
@@ -298,6 +307,15 @@ public function create(Request $request)
         $secciones = Seccion::where([['enlace', false]])->orderBy('orden', 'asc')->get();
         $datosecciones = Vista::where('fkcontenido',$id)->get();
         $tipocontenidos = Tipocontenido::where('activo',true)->orderBy('idtipocontenido','asc')->get();
+
+        $templatePath = resource_path('views\templates');
+        $templateFiles = File::files($templatePath);
+
+        $templates = [];
+        foreach ($templateFiles as $file) {
+            $filename = $file->getFilenameWithoutExtension();
+            $templates[] = $filename;
+        }
         
         if(count($datosecciones) == 1) {
             if($datosecciones->contains('fkseccion', null)) {
@@ -311,7 +329,7 @@ public function create(Request $request)
             $vista = 'S';
         }
         
-        return view('contenidos.editar',compact('page','vfecha','vapartado','vseccion','vbusqueda','vista','apartados','secciones','datosecciones','datos','tipocontenidos'));
+        return view('contenidos.editar',compact('page','vfecha','vapartado','vseccion','vbusqueda','vista','apartados','secciones','datosecciones','datos','tipocontenidos','templates'));
     }
 
     /**

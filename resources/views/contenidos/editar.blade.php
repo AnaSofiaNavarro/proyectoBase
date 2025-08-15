@@ -211,12 +211,16 @@
                                 </div>
                             </div>
 
-                            <div class="form-row">
-                                <div class="form-group col-md-5">
-                                    <label for="template">Template</label><br>
-                                    <input type="text" class="form-control" name="extension" id="extension" maxlength="20"
-                                        value="{{ old('template') }}" placeholder="Template" />
-                                </div>
+                          <div class="form-group col-md-5">
+                                <label for="template">Template</label><br>
+                                <select class="form-control" name="template" id="template">
+                                    <option value="">Selecciona un template</option>
+                                    @foreach ($templates as $template)
+                                        <option value="{{ $template }}" {{ old('template') == $template ? 'selected' : '' }}>
+                                            {{ $template }}
+                                        </option>
+                                    @endforeach
+                                </select>
                             </div>
 
                             <input type="hidden" name="page" value="{{$page ?? ''}}">
